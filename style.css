@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 150px;
+}
+
+.circle-1 {
+    width: 210px;
+    height: 210px;
+    background-color: crimson;
+    border-radius: 50%;
+    margin: 23px;
+    animation: julian 0.5s linear infinite;
+}
+
+
+.circle-2 {
+    width: 210px;
+    height: 210px;
+    background-color: greenyellow;
+    border-radius: 50%;
+    margin: 23px;
+    animation: julian 0.5s linear infinite;
+}
+
+.circle-3 {
+    width: 210px;
+    height: 210px;
+    background-color: orange;
+    border-radius: 50%;
+    margin: 23px;
+    animation: julian 0.5s linear infinite;
+}
+
+.circle-4 {
+    width: 210px;
+    height: 210px;
+    background-color: purple;
+    border-radius: 50%;
+    margin: 23px;
+    animation: julian 0.5s ease infinite;
+}
+
+@keyframes julian {
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(99,21,209,1) 100%);
+    }
+}
